@@ -1,0 +1,186 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Europa Destinos</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/imgAnimator.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+    </head>
+    <body>
+        <nav>
+            <h2><a id="euroDestinos" href="index.html" style="text-decoration: none; color: white;">Europa Destinos</a></h2>
+            <p id="textLogo">Venha conhecer a Europa!</p>
+            <div class="menu-inicial">
+                <a href="index.html" id="geral">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Destinos</a>
+                    <div class="dropdown-content">
+                        <a href="#" id="geral">Albânia</a>
+                        <a href="#" id="geral">Alemanha</a>
+                        <a href="#" id="geral">Andorra</a>
+                        <a href="#" id="geral">Áustria</a>
+                        <a href="#" id="geral">Bélgica</a>
+                    </div>
+                </div>
+                <a href="sobreNos.html" id="geral">Sobre Nós</a>
+                <a href="depoimentos.html" id="geral">Depoimentos</a>
+                <a href="contato.html" id="geral">Contato</a>
+            </div>
+        </nav>
+    </div>
+    <section class="content">
+        <div class="hidden">
+            <div class="slideshow-container"> 
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <img id="slide-image" src="images/image1.jpg" alt="Imagem de Destino"> 
+                <button class="next" onclick="changeSlide(1)">&#10095;</button> 
+            </div>
+            <hr>
+        </div>
+            
+    </div>
+        <div class="hidden">
+            <div class="mapEuro">
+                <h2 id="msgEuropa">Europa</h2>
+                <p style="position: absolute; width: 600px; margin-left: 41%; margin-top: 7%; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: white;">A Europa é um destino fascinante que encanta visitantes com sua rica história, cultura vibrante e paisagens deslumbrantes. Imagine-se passeando pelas ruas charmosas de Paris, explorando os antigos monumentos de Roma, ou navegando pelos românticos canais de Veneza. Cada país oferece uma experiência única, seja através da arquitetura impressionante, dos deliciosos pratos típicos ou das tradições locais.
+                    O continente é um verdadeiro mosaico de culturas, onde cada região tem seu próprio charme e peculiaridades. As praias ensolaradas da Espanha, as montanhas majestosas da Suíça, e as pitorescas vilas da Toscana são apenas alguns exemplos das belezas naturais que você encontrará. A culinária europeia é outra atração imperdível, com uma diversidade de sabores que vai desde os croissants franceses até as massas italianas e os chocolates belgas.
+                    
+                    Além disso, a Europa é um paraíso para os amantes da arte e da história. Visite museus renomados como o Louvre em Paris e o Prado em Madri, ou explore sítios históricos como o Coliseu em Roma e a Acrópole em Atenas. E não se esqueça das experiências culturais, como os festivais de música na Alemanha, os mercados de Natal na Áustria, e as tradições folclóricas da Irlanda.
+                    
+                    Viajar pela Europa é uma oportunidade para criar memórias inesquecíveis, desfrutar de paisagens de tirar o fôlego e mergulhar em uma diversidade cultural incomparável. Venha descobrir o que torna este continente tão especial e prepare-se para se apaixonar por cada lugar que visitar.</p>
+        </div>
+        <div class="hidden">
+            <img id="mapEurope" style="border-radius: 20px;" src="imagens/mapEuro.jpg" alt="">
+        </div>
+       <div class="hidden">
+        <br>
+        <hr>
+       </div> 
+<div id="post1">
+        <div class="hidden">
+                <iframe style="position: absolute; border-radius: 20px; padding: 10px;"  width="540px" height="365px" src="https://www.youtube.com/embed/Scxs7L0vhZ4?si=kDB2at0_6rYficDW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="text">
+                <h3 style="position: absolute; margin-left: 65%; margin-top: 2%; color: red; font-family: Arial, Helvetica, sans-serif;font-size: 27px;">Noruega</h3>
+
+                <p style="width:500px; margin-left: 52%; margin-top: 5%; position: absolute; font-weight: bold; padding: 10px; border: 1px solid; border-radius: 10px;">A Noruega é um país de paisagens deslumbrantes que combinam majestosas montanhas, fiordes profundos, vilas pitorescas e uma costa recortada. Os fiordes noruegueses, como o <strong>Geirangerfjord e o Nærøyfjord,</strong>  são conhecidos por suas águas azul-turquesa cercadas por altas montanhas, oferecendo cenários espetaculares e tranquilos. A paisagem montanhosa, com picos como os Alpes de Lyngen e Jotunheimen, é impressionante e atrai esquiadores e alpinistas de todo o mundo. Além disso, os vastos glaciares, como o Jostedalsbreen, adicionam um toque de grandiosidade e beleza intocada ao cenário norueguês. Viajar pela Noruega é uma experiência inesquecível, onde a natureza se revela em sua forma mais pura e cativante.</p>
+            </div>
+            <button id="btn"> 
+                Assinar pacote! <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+        </div>
+        <br>
+        <hr>
+    </div>
+    <br>
+    <div class="hidden">
+        <div class="Reserva-De-Voos">
+            <form action="">
+                <h3>Reserva de voos</h3>
+                <h4>Encontre as melhores ofertas de acomodações</h4>
+                <p>De hotéis-fazenda aconchegantes a apartamentos modernos na cidade</p>
+    
+                <label for="Localizacao">Destino/nome hotel ou acomodação</label>
+                <input type="search" name="Localizacao" id="Localizacao">
+    
+                <label for="data-entrada">Data de entrada </label>
+                <input type="date" name="data-entrada" id="data-entrada"> 
+    
+                <label for="data-saida">Data de saída</label>
+                <input type="date" name="data-saida" id="data-saida">
+    
+                <label for="estadia">Estadia de 7 diárias</label>
+    
+                <label for="adulto">Adultos:</label>
+                <select name="adulto" id="adulto">
+                    <option value="1">1 adulto</option>
+                    <option value="2">2 adulto</option>
+                    <option value="3">3 adulto</option>
+                    <option value="4">4 adulto</option>
+                </select>
+    
+                <label for="criança">Criança:</label>
+                <select name="criança" id="criança">
+                    <option value="1">1 criança</option>
+                    <option value="2">2 crianças</option>
+                    <option value="3">3 crianças</option>
+                    <option value="4">4 crianças</option>
+                </select>
+    
+                <label for="quarto">Quartos:</label>
+                <select name="rooms" id="rooms">
+                    <option value="1">1 Quarto</option>
+                    <option value="2">2 Quartos</option>
+                    <option value="3">3 Quartos</option>
+                    <option value="4">4 Quartos</option>
+                </select>
+    
+                <label for="viajar-trabalho">Viajem a trabalho?</label>
+                <input type="checkbox" name="viajar-trabalho" id="viajar-trabalho">
+                
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </div>
+        <br><br>
+        <div class="hidden">
+        <div class="btemail">
+            <br>
+            <p>Inscreva-se para receber ofertas exclusivas</p>
+            <input type="email" name="email" id="email1" placeholder="Insira seu email!">
+            <button id="email1">Quero receber!</button>
+        </div>
+    </div>
+    <div class="container-termos">
+        <button class="botao-alternar">Termos e Condições  <svg class="icone-seta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 16l-6-6h12z"/></svg></button>
+        <div class="conteudo-termos">
+           <p>Termos e Condições</p>
+            <p></p>
+        </div>
+    </div>
+    <br><br>
+        <div class="hidden">
+            <div class="content">
+                <footer>
+                    <div class="boxs">
+                        <h3>Inicio</h3>
+                        <ul>
+                            <li><a href="0">Home</a></li>
+                            <li><a href="0">Produtos</a></li>
+                            <li><a href="0">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="boxs">
+                        <h3>Informações</h3>
+                        <ul>
+                            <li><a href="0">Blog</a></li>
+                            <li><a href="0">Contato</a></li>
+                            <li><a href="0">Email</a></li>
+                        </ul>
+                    </div>
+                    <div class="boxs">
+                        <h3>Suporte</h3>
+                        <ul>
+                            <li><a href="0">FAQ</a></li>
+                            <li><a href="0">Telefone</a></li>
+                            <li><a href="0">Chat</a></li>
+                        </ul>
+                    </div>
+                    <div class="boxs">
+                        <h3>Redes sociais</h3>
+                            <i id="iconGeral" style="color: rgb(0, 0, 255);" class="fa-brands fa-facebook"></i>
+                            <i id="iconGeral" style="color: lightblue;" class="fa-brands fa-twitter"></i>
+                            <i id="iconGeral" style="color: rgb(9, 230, 9);" class="fa-brands fa-whatsapp"></i>
+                            <i id="iconGeral" style="color:  #E1306C;" class="fa-brands fa-instagram"></i>
+                            <i id="iconGeral" style="color: red;" class="fa-brands fa-youtube"></i>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+        <script src="JAVASCRIPT/index.js" defer></script>
+    </body>
+    </html>
